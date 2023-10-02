@@ -1,0 +1,21 @@
+Design patterns ou padrões de projetos são soluções generalistas para problemas recorrentes durante o desenvolvimento de um software.
+Design patterns são modelos de soluções abstratas de alto nível para resolver problemas comuns.
+Cada padrão descreve um problema que ocorre com frequencia e descreve o cerne da solução de forma a poder reusar a solução muitas vezes em situações diferentes.
+Patterns não são balas de pratas que vão resolver tudo para nós.
+NEM TODOS OS PROBLEMAS REQUEREM DESIGN PATTERNS.
+
+Os tipos de padrões de projeots são: 
+Criacionais (Creational) - 5 no total
+Estruturais (Structural) - 7 no total
+Comportamentais (Behavioral) - 11 no total
+
+Baseado no livro da GoF temos 23 padrões de projetos
+
+Os padrões criacionais abstraem e/ou adiam o processo de criação dos objetos, e fornecem mecanismos de criação de objetos que aumentam a flexibilidade e a reutilização do código existente.
+
+Os patterns do tipo criacionais está relacionado com a criação de objetos.
+
+Começando pelo Factory: Um factory é um objeto utilizado para criar outros objetos
+Usando o factory criamos objetos sem expor a lógica de criação ao cliente.
+
+Temos 2 design pattern relacionado ao factory: Factory Method e Abstract Factory

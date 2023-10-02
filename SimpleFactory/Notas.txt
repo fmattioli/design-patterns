@@ -1,0 +1,5 @@
+Com o uso do SimpleFactory nós movemos a lógica de criação de objetos para uma classe separada chamada PizzaSimpleFactory.
+Encapsulamos o que varia entre os objetos e tornamos o código mais flexível para evoluções e até mesmo mudanças.
+Centralizamos a lógica de criação dos objetos em um único local facilitando a manutenção.
+Se fizessémos essa solução sem o simplefactory, teriamos que criar os mesmos métodos para diferentes classes (PizzaMussarela, PizzaCalabresa).
+Com o SimpleFactory nós abstraímos os detalhes de criação da pizza para o cliente. Utilizando esse pattern a única coisa que o cliente saberá quando chamar o método estático de criar uma pizza é que ele irá retornar um objeto do tipo pizza.
